@@ -26,7 +26,11 @@ function App() {
 
     localStorage.setItem('datas', JSON.stringify(datas))
     setLength(datas.length)
-
+    setVehicle("")
+    setName("")
+    setCheckIn("")
+    setCheckOut("")
+    alert("Submitted")
 
   }
 
